@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ARQDESIS Exercício Aula 11</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Escreva uma mensagem</string>
+    <string name="button_send">Envie</string>
+    <string name="title_activity_dislay_message">Mostra a Mensagem</string>
+</resources>
