@@ -20,6 +20,10 @@
             android:name=".DisplayAvailableFlightsActivity"
             android:label="@string/title_activity_display_available_flights" >
         </activity>
+        <activity
+            android:name=".DislayMessageActivity"
+            android:label="@string/title_activity_dislay_message" >
+        </activity>
     </application>
 
 </manifest>

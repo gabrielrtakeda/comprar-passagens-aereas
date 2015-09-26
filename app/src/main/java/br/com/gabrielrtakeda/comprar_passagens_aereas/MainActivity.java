@@ -1,4 +1,4 @@
-package br.com.gabrielrtakeda.comprar_passagens_aereas;
+package br.com.gabrielrtakeda.comprarpassagensaereas;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Cria Intent para passar os valores para outra Activity.
-        Intent intent = new Intent(this, DisplayAvailableFlightsActivity.class);
+        Intent intent = new Intent(this, DisplayAvailableFlights.class);
         intent.putExtra(MESSAGE_SELECTED_COUNTRY, selectedCountry);
 
         // Inicia a nova Activity.
