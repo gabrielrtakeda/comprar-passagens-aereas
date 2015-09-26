@@ -1,0 +1,95 @@
+{
+    "flights": [
+        {
+            "flight": "JL 5513 ^",
+            "carrier": "JAL",
+            "origin": "Frankfurt",
+            "arrival": "4:55 AM"
+        }, {
+            "flight": "LH 7358 ^",
+            "carrier": "Lufthansa",
+            "origin": "Frankfurt",
+            "arrival": "4:55 AM"
+        }, {
+            "flight": "NH 5929 ^",
+            "carrier": "ANA",
+            "origin": "Frankfurt",
+            "arrival": "4:55 AM"
+        }, {
+            "flight": "CA 7109 ^",
+            "carrier": "Air China",
+            "origin": "Frankfurt",
+            "arrival": "4:55 AM"
+        }, {
+            "flight": "G3 7725",
+            "carrier": "Gol",
+            "origin": "Punta Cana",
+            "arrival": "5:00 AM"
+        }, {
+            "flight": "DL 6905 ^",
+            "carrier": "Delta Air Lines",
+            "origin": "Punta Cana",
+            "arrival": "5:00 AM"
+        }, {
+            "flight": "AZ 674",
+            "carrier": "Alitalia",
+            "origin": "Rome",
+            "arrival": "5:05 AM"
+        }, {
+            "flight": "G3 1889  ",
+            "carrier": "Gol",
+            "origin": "Manaus",
+            "arrival": "5:10 AM"
+        }, {
+            "flight": "G3 1181",
+            "carrier": "Gol",
+            "origin": "João Pessoa",
+            "arrival": "5:15 AM"
+        }, {
+            "flight": "KL 9353 ^",
+            "carrier": "KLM",
+            "origin": "João Pessoa",
+            "arrival": "5:15 AM"
+        }, {
+            "flight": "AZ 5517 ^",
+            "carrier": "Alitalia",
+            "origin": "João Pessoa",
+            "arrival": "5:15 AM"
+        }, {
+            "flight": "UX 57",
+            "carrier": "Air Europa",
+            "origin": "Madrid",
+            "arrival": "5:15 AM"
+        }, {
+            "flight": "BA 247",
+            "carrier": "British Airways",
+            "origin": "London",
+            "arrival": "5:20 AM"
+        }, {
+            "flight": "IB 4741 ^",
+            "carrier": "Iberia",
+            "origin": "London",
+            "arrival": "5:20 AM"
+        }, {
+            "flight": "JJ 8065",
+            "carrier": "TAM",
+            "origin": "Madrid",
+            "arrival": "5:25 AM"
+        }, {
+            "flight": "LA 8526 ^",
+            "carrier": "LAN Airlines",
+            "origin": "Madrid",
+            "arrival": "5:25 AM"
+        }, {
+            "flight": "IB 2481 ^",
+            "carrier": "Iberia",
+            "origin": "Madrid",
+            "arrival": "5:25 AM"
+        }, {
+            "flight": "CA 7104 ^",
+            "carrier": "Air China",
+            "origin": "Madrid",
+            "arrival": "5:25 AM"
+        }
+    ]
+}
