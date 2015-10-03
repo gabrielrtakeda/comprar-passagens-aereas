@@ -5,6 +5,7 @@
     // Titles
     <string name="title_activity_main">Atividade Principal</string>
     <string name="title_activity_display_available_flights">Lista de Vôos Disponíveis</string>
+    <string name="title_activity_flight_description">Descrição do Vôo</string>
 
     // Actions
     <string name="action_settings">Configurações</string>
@@ -13,8 +14,15 @@
     <string name="button_done">Pronto</string>
     <string name="button_send">Envie</string>
 
+    // Headings
+    <string name="flight_description_heading">Dados do Vôo</string>
+
     // Labels
     <string name="label_countries">País</string>
+    <string name="label_flight_description_flight">Vôo</string>
+    <string name="label_flight_description_carrier">Empresa</string>
+    <string name="label_flight_description_origin">Origem</string>
+    <string name="label_flight_description_arrival">Chegada</string>
 
     // Tables
     <string name="table_head_available_filights_flight">Vôo</string>
@@ -187,4 +195,6 @@
             "status": "En Route"
         }</item>
     </string-array>
+
+    <string name="hello_world">Hello world!</string>
 </resources>

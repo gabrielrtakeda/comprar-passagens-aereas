@@ -23,6 +23,8 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 
+import br.com.gabrielrtakeda.comprar_passagens_aereas.listener.FlightDescriptionOnClickListener;
+
 public class DisplayAvailableFlightsActivity extends AppCompatActivity {
 
     @Override
@@ -67,12 +69,7 @@ public class DisplayAvailableFlightsActivity extends AppCompatActivity {
                     tableRow.setPadding(0, 50, 0, 50);
                     tableRow.setFocusable(true);
                     tableRow.setFocusableInTouchMode(true);
-                    tableRow.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            // Não faz nada por enquanto...
-                        }
-                    });
+                    tableRow.setOnClickListener(new FlightDescriptionOnClickListener(flightData));
 
                     // Cria os TextViews para a TableRow.
                     tableRow.addView(this.buildTableRowTextView(flightData, "flight"));

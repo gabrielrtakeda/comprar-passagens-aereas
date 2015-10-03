@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/burgundy"
+    tools:context="br.com.gabrielrtakeda.comprar_passagens_aereas.FlightDescriptionActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Flight-->
+        <TextView
+            android:id="@+id/flight_description_flight_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_flight_description_flight"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/flight_description_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="25dp"
+            />
+
+        <!-- Carrier-->
+        <TextView
+            android:id="@+id/flight_description_carrier_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_flight_description_carrier"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/flight_description_carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="25dp"
+            />
+
+        <!-- Origin-->
+        <TextView
+            android:id="@+id/flight_description_origin_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_flight_description_origin"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/flight_description_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="25dp"
+            />
+
+        <!-- Arrival-->
+        <TextView
+            android:id="@+id/flight_description_arrival_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_flight_description_arrival"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/flight_description_arrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="25dp"
+            />
+    </ListView>
+
+</LinearLayout>
