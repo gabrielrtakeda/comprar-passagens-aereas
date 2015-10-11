@@ -3,16 +3,11 @@ package br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.R;
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.entity.Flight;
-import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.listener.FlightDescriptionOnClickListener;
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.message.AvailableFlightsMessage;
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.util.Util;
 

@@ -13,6 +13,8 @@ import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.lang.reflect.Array;
+
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.R;
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.listener.click.ValidationNeutralButtonListener;
 import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.network.FlightsRequester;
@@ -38,6 +40,12 @@ public class MainActivity extends ActionBarActivity {
         setupViews();
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        setupViews();
+    }
+
     private void prepareViews() {
         spinnerCountries = (Spinner) findViewById(R.id.dropdown_countries);
         spinnerCities = (Spinner) findViewById(R.id.dropdown_cities);
@@ -45,23 +53,27 @@ public class MainActivity extends ActionBarActivity {
         loader = (ProgressBar) findViewById(R.id.loader);
     }
 
-    private void setupViews() {
+    private ArrayAdapter<String> getCountriesAdapter() {
         String[] listCountries = getResources().getStringArray(R.array.list_countries);
-        ArrayAdapter<String> countryAdapter = new ArrayAdapter<>(
+        return new ArrayAdapter<>(
             this, R.layout.spinner,
             listCountries
         );
+    }
 
-        ArrayAdapter<String> citiesAdapter = new ArrayAdapter<>(
+    private ArrayAdapter<String> getCitiesAdapter() {
+        return new ArrayAdapter<>(
             this, R.layout.spinner,
             getResources().getStringArray(R.array.list_empty)
         );
+    }
 
+    private void setupViews() {
         loader.setVisibility(View.INVISIBLE);
 
         // Set Adapters.
-        spinnerCountries.setAdapter(countryAdapter);
-        spinnerCities.setAdapter(citiesAdapter);
+        spinnerCountries.setAdapter(getCountriesAdapter());
+        spinnerCities.setAdapter(getCitiesAdapter());
 
         // Set Listeners.
         spinnerCountries.setOnItemSelectedListener(new SelectedCountry(this));
