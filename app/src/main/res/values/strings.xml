@@ -34,9 +34,7 @@
     <string name="format_selected_country">País selecionado: %s</string>
 
     // Validations
-    <string name="validation_country_not_selected_title">País não selecionado.</string>
     <string name="validation_country_not_selected_message">"Você não selecionou nenhum país. Por favor, selecione o país corretamente."</string>
-    <string name="validation_city_not_selected_title">Cidade não selecionada.</string>
     <string name="validation_city_not_selected_message">"Você não selecionou nenhuma cidade. Por favor, selecione a cidade corretamente."</string>
 
     // Mock Arrays
@@ -66,6 +64,18 @@
         <item>list_cities_canada</item>
         <item>list_cities_inglaterra</item>
         <item>list_cities_japao</item>
+    </string-array>
+
+    <string-array name="list_countries_api_index">
+        <item>empty</item>
+        <item>brasil</item>
+        <item>africa-do-sul</item>
+        <item>alemanha</item>
+        <item>argentina</item>
+        <item>australia</item>
+        <item>canada</item>
+        <item>inglaterra</item>
+        <item>japao</item>
     </string-array>
 
     <string-array name="list_cities_brasil">
