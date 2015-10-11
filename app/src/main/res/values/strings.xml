@@ -33,7 +33,17 @@
     // String Formats
     <string name="format_selected_country">País selecionado: %s</string>
 
+    // Validations
+    <string name="validation_country_not_selected_title">País não selecionado.</string>
+    <string name="validation_country_not_selected_message">"Você não selecionou nenhum país. Por favor, selecione o país corretamente."</string>
+    <string name="validation_city_not_selected_title">Cidade não selecionada.</string>
+    <string name="validation_city_not_selected_message">"Você não selecionou nenhuma cidade. Por favor, selecione a cidade corretamente."</string>
+
     // Mock Arrays
+    <string-array name="list_empty">
+        <item>-</item>
+    </string-array>
+
     <string-array name="list_countries">
         <item>Escolha seu país</item>
         <item>Brasil</item>
@@ -44,6 +54,66 @@
         <item>Canadá</item>
         <item>Inglaterra</item>
         <item>Japão</item>
+    </string-array>
+
+    <string-array name="list_countries_index">
+        <item>empty</item>
+        <item>list_cities_brasil</item>
+        <item>list_cities_africa_do_sul</item>
+        <item>list_cities_alemanha</item>
+        <item>list_cities_argentina</item>
+        <item>list_cities_australia</item>
+        <item>list_cities_canada</item>
+        <item>list_cities_inglaterra</item>
+        <item>list_cities_japao</item>
+    </string-array>
+
+    <string-array name="list_cities_brasil">
+        <item>Escolha a cidade</item>
+        <item>São Paulo</item>
+        <item>Rio Grande do Sul</item>
+    </string-array>
+
+    <string-array name="list_cities_africa_do_sul">
+        <item>Escolha a cidade</item>
+        <item>Cape Town</item>
+        <item>Johannesburg</item>
+    </string-array>
+
+    <string-array name="list_cities_alemanha">
+        <item>Escolha a cidade</item>
+        <item>Bad Zwischenahn</item>
+        <item>Gunzenhausen</item>
+    </string-array>
+
+    <string-array name="list_cities_argentina">
+        <item>Escolha a cidade</item>
+        <item>Paso de los Libres</item>
+        <item>Curuzú Cuatiá</item>
+    </string-array>
+
+    <string-array name="list_cities_australia">
+        <item>Escolha a cidade</item>
+        <item>Palmerstone</item>
+        <item>Yulara</item>
+    </string-array>
+
+    <string-array name="list_cities_canada">
+        <item>Escolha a cidade</item>
+        <item>Campbellton</item>
+        <item>Flin Flon</item>
+    </string-array>
+
+    <string-array name="list_cities_inglaterra">
+        <item>Escolha a cidade</item>
+        <item>Londres</item>
+        <item>Liverpool</item>
+    </string-array>
+
+    <string-array name="list_cities_japao">
+        <item>Escolha a cidade</item>
+        <item>Tokyo</item>
+        <item>Yokohama</item>
     </string-array>
 
     <string-array name="list_flights_available">

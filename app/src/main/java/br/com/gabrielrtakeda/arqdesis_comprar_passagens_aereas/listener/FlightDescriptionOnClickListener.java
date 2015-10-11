@@ -1,4 +1,4 @@
-package br.com.gabrielrtakeda.comprar_passagens_aereas.listener;
+package br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.listener;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.view.View;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import br.com.gabrielrtakeda.comprar_passagens_aereas.FlightDescriptionActivity;
+import br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas.activity.FlightDescriptionActivity;
 
 /**
  * Created by gtakeda on 10/2/15.

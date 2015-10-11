@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comprar-passagens-aereas.iml" filepath="$PROJECT_DIR$/comprar-passagens-aereas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arqdesis-comprar-passagens-aereas.iml" filepath="$PROJECT_DIR$/arqdesis-comprar-passagens-aereas.iml" />
     </modules>
   </component>
 </project>

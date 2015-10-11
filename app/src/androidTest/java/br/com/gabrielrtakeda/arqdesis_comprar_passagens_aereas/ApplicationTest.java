@@ -1,4 +1,4 @@
-package br.com.gabrielrtakeda.comprar_passagens_aereas;
+package br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="white">#fff</color>
-    <color name="black">#000</color>
-    <color name="burgundy">#900000</color>
-    <color name="gray">#999</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="app_background">#900000</color>
+    <color name="gray">#999999</color>
+    <color name="spinner_background">#ffffff</color>
+    <color name="spinner_text">#555555</color>
+    <color name="button_done_background">#4c0000</color>
+    <color name="button_done_text">#fff</color>
 </resources>

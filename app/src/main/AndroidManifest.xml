@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.gabrielrtakeda.comprar_passagens_aereas" >
+    package="br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas" >
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DisplayAvailableFlightsActivity"
+            android:name=".activity.DisplayAvailableFlightsActivity"
             android:label="@string/title_activity_display_available_flights" >
         </activity>
         <activity
-            android:name=".FlightDescriptionActivity"
+            android:name=".activity.FlightDescriptionActivity"
             android:label="@string/title_activity_flight_description" >
         </activity>
     </application>

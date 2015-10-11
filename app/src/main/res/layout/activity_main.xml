@@ -1,50 +1,57 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@color/burgundy"
-    android:weightSum="1"
-    >
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
             android:src="@drawable/logo"
+            android:layout_gravity="top"
             />
+
+        <Spinner
+            android:id="@+id/dropdown_countries"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_default_height"
+            android:spinnerMode="dropdown"
+            android:background="@color/spinner_background"
+            android:layout_marginBottom="@dimen/component_default_margin_bottom"
+            />
+
+        <Spinner
+            android:id="@+id/dropdown_cities"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_default_height"
+            android:spinnerMode="dropdown"
+            android:background="@color/spinner_background"
+            android:layout_marginBottom="@dimen/component_default_margin_bottom"
+            />
+
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/component_default_height"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_done"
+            android:textColor="@color/button_done_text"
+            android:onClick="sendCountry"
+            android:layout_marginBottom="@dimen/component_default_margin_bottom"
+            />
+
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/label_countries"
-        android:layout_marginBottom="@dimen/activity_main_edit_vertical_margin"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        />
-
-    <Spinner
-        android:id="@+id/dropdown_countries"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:entries="@array/list_countries"
-        android:background="@color/white"
-        android:spinnerMode="dropdown"
-        />
-
-    <Button
-        android:id="@+id/button_done"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_done"
-        android:onClick="sendCountry"
-        />
-
-</LinearLayout>
+</ScrollView>
