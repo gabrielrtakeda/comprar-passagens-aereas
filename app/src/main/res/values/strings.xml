@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Phalcon Airlines</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_flights_name">Escolha suas opções</string>
+    <string name="label_flights_price">Preço: </string>
+    <string name="label_flights_origin">Origem: </string>
+    <string name="label_flights_destination">Destino: </string>
+    <string name="label_flights_date">Data: </string>
+    <string name="label_flights_time">Horario: </string>
+    <string name="label_flights_carrier">Companhia: </string>
+    <string name="button_send">Consultar Simples</string>
+
+    <string name="title_activity_list_flights">Lista de Voos</string>
+    <string name="label_list_flights">Nenhum vôo encontrado</string>
+    <string name="label_list_flights_detail">Vôos Escolhidos</string>
+
+</resources>
