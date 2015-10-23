@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:paddingBottom="4dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/available_flight_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/no_image_icon"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/available_flight_origin"
+        android:layout_toRightOf="@id/available_flight_image"
+        android:text="--origin--"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/available_flight_data"
+        android:layout_toRightOf="@id/available_flight_image"
+        android:layout_below="@id/available_flight_origin"
+        android:text="--data--"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/available_flight_arrival"
+        android:layout_toRightOf="@id/available_flight_image"
+        android:layout_below="@id/available_flight_data"
+        android:text="--arrival--"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp" />
+    <TextView
+        android:id="@+id/available_flight_description"
+        android:layout_toRightOf="@id/available_flight_image"
+        android:layout_below="@id/available_flight_arrival"
+        android:text="--description--"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+</RelativeLayout>

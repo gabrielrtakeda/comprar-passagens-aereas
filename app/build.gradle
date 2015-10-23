@@ -2,10 +2,18 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
     buildToolsVersion "23.0.0"
     defaultConfig {
         applicationId "com.example.gabrielrtakeda.atividade_arqdsis03_consultarvoo"
         minSdkVersion 15
+=======
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas"
+        minSdkVersion 14
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -20,6 +28,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:23.0.0'
+=======
+    compile 'com.android.support:appcompat-v7:23.0.1'
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
     compile 'com.squareup.okhttp:okhttp:2.5.0'
 }

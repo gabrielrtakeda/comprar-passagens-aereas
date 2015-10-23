@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.gabrielrtakeda.atividade_arqdsis03_consultarvoo" >
 
+=======
+    package="br.com.gabrielrtakeda.arqdesis_comprar_passagens_aereas" >
+    
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -11,7 +16,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name="com.example.gabrielrtakeda.atividade_arqdsis03_consultarvoo.controller.MainActivity"
+=======
+            android:name=".activity.MainActivity"
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,12 +29,21 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name="com.example.gabrielrtakeda.atividade_arqdsis03_consultarvoo.controller.ListaVoosActivity"
             android:label="@string/title_activity_list_flights" >
         </activity>
         <activity
             android:name="com.example.gabrielrtakeda.atividade_arqdsis03_consultarvoo.controller.DetalheVoosActivity"
             android:label="@string/label_list_flights_detail" >
+=======
+            android:name=".activity.DisplayAvailableFlightsActivity"
+            android:label="@string/title_activity_display_available_flights" >
+        </activity>
+        <activity
+            android:name=".activity.FlightDescriptionActivity"
+            android:label="@string/title_activity_flight_description" >
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
         </activity>
     </application>
 

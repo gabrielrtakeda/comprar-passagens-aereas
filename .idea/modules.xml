@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
+<<<<<<< HEAD
     <modules />
+=======
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arqdesis-comprar-passagens-aereas.iml" filepath="$PROJECT_DIR$/arqdesis-comprar-passagens-aereas.iml" />
+    </modules>
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
   </component>
 </project>

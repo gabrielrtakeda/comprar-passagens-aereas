@@ -3,4 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+<<<<<<< HEAD
 </menu>
+=======
+</menu>
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465

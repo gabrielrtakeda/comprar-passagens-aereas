@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Phalcon Airlines</string>
 
     <string name="action_settings">Settings</string>
@@ -15,4 +16,284 @@
     <string name="label_list_flights">Nenhum vôo encontrado</string>
     <string name="label_list_flights_detail">Vôos Escolhidos</string>
 
+=======
+    // Globals
+    <string name="app_name">Phalcon Airlines</string>
+
+    // Titles
+    <string name="title_activity_main">Atividade Principal</string>
+    <string name="title_activity_display_available_flights">Lista de Vôos Disponíveis</string>
+    <string name="title_activity_flight_description">Descrição do Vôo</string>
+
+    // Actions
+    <string name="action_settings">Configurações</string>
+
+    // Buttons
+    <string name="button_done">Pronto</string>
+    <string name="button_send">Envie</string>
+
+    // Headings
+    <string name="flight_description_heading">Dados do Vôo</string>
+
+    // Labels
+    <string name="label_countries">País</string>
+    <string name="label_flight_description_flight">Vôo</string>
+    <string name="label_flight_description_carrier">Empresa</string>
+    <string name="label_flight_description_origin">Origem</string>
+    <string name="label_flight_description_arrival">Chegada</string>
+
+    // Tables
+    <string name="table_head_available_filights_flight">Vôo</string>
+    <string name="table_head_available_filights_carrier">Empresa</string>
+    <string name="table_head_available_filights_origin">Origem</string>
+    <string name="table_head_available_filights_arrival">Chegada</string>
+
+    // String Formats
+    <string name="format_selected_country">País selecionado: %s</string>
+
+    // Validations
+    <string name="validation_country_not_selected_message">"Você não selecionou nenhum país. Por favor, selecione o país corretamente."</string>
+    <string name="validation_city_not_selected_message">"Você não selecionou nenhuma cidade. Por favor, selecione a cidade corretamente."</string>
+
+    // Mock Arrays
+    <string-array name="list_empty">
+        <item>-</item>
+    </string-array>
+
+    <string-array name="list_countries">
+        <item>Escolha seu país</item>
+        <item>Brasil</item>
+        <item>África do Sul</item>
+        <item>Alemanha</item>
+        <item>Argentina</item>
+        <item>Austrália</item>
+        <item>Canadá</item>
+        <item>Inglaterra</item>
+        <item>Japão</item>
+    </string-array>
+
+    <string-array name="list_countries_index">
+        <item>empty</item>
+        <item>list_cities_brasil</item>
+        <item>list_cities_africa_do_sul</item>
+        <item>list_cities_alemanha</item>
+        <item>list_cities_argentina</item>
+        <item>list_cities_australia</item>
+        <item>list_cities_canada</item>
+        <item>list_cities_inglaterra</item>
+        <item>list_cities_japao</item>
+    </string-array>
+
+    <string-array name="list_countries_api_index">
+        <item>empty</item>
+        <item>brasil</item>
+        <item>africa-do-sul</item>
+        <item>alemanha</item>
+        <item>argentina</item>
+        <item>australia</item>
+        <item>canada</item>
+        <item>inglaterra</item>
+        <item>japao</item>
+    </string-array>
+
+    <string-array name="list_cities_brasil">
+        <item>Escolha a cidade</item>
+        <item>São Paulo</item>
+        <item>Rio Grande do Sul</item>
+    </string-array>
+
+    <string-array name="list_cities_africa_do_sul">
+        <item>Escolha a cidade</item>
+        <item>Cape Town</item>
+        <item>Johannesburg</item>
+    </string-array>
+
+    <string-array name="list_cities_alemanha">
+        <item>Escolha a cidade</item>
+        <item>Bad Zwischenahn</item>
+        <item>Gunzenhausen</item>
+    </string-array>
+
+    <string-array name="list_cities_argentina">
+        <item>Escolha a cidade</item>
+        <item>Paso de los Libres</item>
+        <item>Curuzú Cuatiá</item>
+    </string-array>
+
+    <string-array name="list_cities_australia">
+        <item>Escolha a cidade</item>
+        <item>Palmerstone</item>
+        <item>Yulara</item>
+    </string-array>
+
+    <string-array name="list_cities_canada">
+        <item>Escolha a cidade</item>
+        <item>Campbellton</item>
+        <item>Flin Flon</item>
+    </string-array>
+
+    <string-array name="list_cities_inglaterra">
+        <item>Escolha a cidade</item>
+        <item>Londres</item>
+        <item>Liverpool</item>
+    </string-array>
+
+    <string-array name="list_cities_japao">
+        <item>Escolha a cidade</item>
+        <item>Tokyo</item>
+        <item>Yokohama</item>
+    </string-array>
+
+    <string-array name="list_flights_available">
+        <item>{
+            "flight": "JL 5513 ^",
+            "carrier": "JAL",
+            "origin": "(FRA) Frankfurt",
+            "arrival": "4:55 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "LH 7358 ^",
+            "carrier": "Lufthansa",
+            "origin": "(FRA) Frankfurt",
+            "arrival": "4:55 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "NH 5929 ^",
+            "carrier": "ANA",
+            "origin": "(FRA) Frankfurt",
+            "arrival": "4:55 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "CA 7109 ^",
+            "carrier": "Air China",
+            "origin": "(FRA) Frankfurt",
+            "arrival": "4:55 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "G3 7725",
+            "carrier": "Gol",
+            "origin": "(PUJ) Punta Cana",
+            "arrival": "5:00 AM",
+            "status": "Scheduled"
+        }</item>
+        <item>{
+            "flight": "DL 6905 ^",
+            "carrier": "Delta Air Lines",
+            "origin": "(PUJ) Punta Cana",
+            "arrival": "5:00 AM",
+            "status": "Scheduled"
+        }</item>
+        <item>{
+            "flight": "AZ 674",
+            "carrier": "Alitalia",
+            "origin": "(FCO) Rome",
+            "arrival": "5:05 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "G3 1889  ",
+            "carrier": "Gol",
+            "origin": "(MAO) Manaus",
+            "arrival": "5:10 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "AR 7687 ^",
+            "carrier": "Aerolineas Argentinas",
+            "origin": "(MAO) Manaus",
+            "arrival": "5:10 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "G3 1181",
+            "carrier": "Gol",
+            "origin": "(JPA) Joao Pessoa",
+            "arrival": "5:15 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "KL 9353 ^",
+            "carrier": "KLM",
+            "origin": "(JPA) Joao Pessoa",
+            "arrival": "5:15 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "AZ 5517 ^",
+            "carrier": "Alitalia",
+            "origin": "(JPA) Joao Pessoa",
+            "arrival": "5:15 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "UX 57",
+            "carrier": "Air Europa",
+            "origin": "(MAD) Madrid",
+            "arrival": "5:15 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "BA 247",
+            "carrier": "British Airways",
+            "origin": "(LHR) London",
+            "arrival": "5:20 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "IB 4741 ^",
+            "carrier": "Iberia",
+            "origin": "(LHR) London",
+            "arrival": "5:20 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "PZ 706",
+            "carrier": "TAM",
+            "origin": "(AGT) Ciudad del Este",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "JJ 8360 ^",
+            "carrier": "TAM Linhas Aereas",
+            "origin": "(AGT) Ciudad del Este",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "JJ 8065",
+            "carrier": "TAM Linhas Aereas",
+            "origin": "(MAD) Madrid",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "LA 8526 ^",
+            "carrier": "LAN Airlines",
+            "origin": "(MAD) Madrid",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "IB 2481 ^",
+            "carrier": "Iberia",
+            "origin": "(MAD) Madrid",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+        <item>{
+            "flight": "CA 7104 ^",
+            "carrier": "Air China",
+            "origin": "(MAD) Madrid",
+            "arrival": "5:25 AM",
+            "status": "En Route"
+        }</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+>>>>>>> 522d2a6f69a284893376ffd261438380e1bc5465
 </resources>
